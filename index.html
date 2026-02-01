@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Smart Activity Planner</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+    </head>
+    <body>
+        <!-- Background Video -->
+            <video id="bgVideo" autoplay muted loop></video>
+
+            <h1> ⛅Welcome To Smart Weather Activity Planner </h1>
+             
+            <input type="text" id="city" placeholder="Enter City Name">
+
+            <button onclick="getWeather()">GET WEATHER</button>
+                        
+    
+            <div id="result" class="weather-card" style="display:none;">
+
+                <div class="main-weather">
+
+                    <div class="icon">⛅</div>
+                    <h1><span id="temp"></span>°C</h1>
+                    <p id="condition"></p>
+                </div>
+
+                <div class="info-boxes">
+
+                    <div class="info">
+                        <p>Feels Like🌡️</p>
+                        <h3><span id="feels"></span>°C</h3>
+                    </div>
+
+                    <div class="info">
+                        <p>Humidity💧</p>
+                        <h3><span id="humidity"></span>%</h3>
+                    </div>
+
+                    <div class="info">
+                        <p>Rain🌧️</p>
+                        <h3><span id="rain"></span></h3>
+                    </div>
+
+                    <div class="info">
+                        <p>Wind speed</p>
+                        <h3><span id="wind_speed"></span>m/s</h3>
+                    </div>
+
+                    <div class="info">
+                        <p>Wind Dir</p>
+                        <h3><span id="wind_direction"></span></h3>
+                    </div>
+
+                </div>
+               
+                <div class="activity-box">
+                    <p>💡Recommendation Activity</p>
+                    <h3><span id="activity"></span></h3>
+                </div>
+
+            </div>
+
+       
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+    </body>
+</html>
