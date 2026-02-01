@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color:white;
+    background-image: url("../images/background.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#bgVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+    
+
+body {
+    transition: background 0.5s ease-in-out;
+}
+
+
+#city, button {
+    display: inline-block;
+    vertical-align: middle;
+}
+#city, button {
+    margin-top: 20px;
+}
+
+#city{
+    width: 40%;
+    padding: 12px;
+    border-radius: 6px 0 0 6px;
+    border: none;
+    outline: none;
+}
+
+button{
+    width: 20%;
+    padding: 12px;
+    border-radius: 0 6px 6px 0;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.card *{
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+
+
+
+.weather-card{
+    margin: 10px auto;
+    width: 700px;
+    max-width: 100%;
+    padding: 25px;
+    border-radius: 40px;
+    background: linear-gradient(135deg,#00c6ff,#0072ff);
+    color: white;
+}
+
+.main-weather{
+    text-align: center;
+
+}
+
+.main-weather h1{
+    font-size: 38px;
+    margin: 20px 0;
+
+}
+
+.main-weather p{
+    font-size: 18px;
+    text-transform: capitalize;
+
+}
+.icon{
+    font-size: 40px;
+
+}
+
+.info-boxes{
+    display:flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.info{
+    background: white;
+    color: black;
+    width: 15%;
+    padding: 5px 9px;
+    border-radius: 10px;
+    min-width:70px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    font-size: 14px;
+ }
+
+.info p{
+    font-size: 12px;
+    font-family: arial;
+    
+    color: black;
+    margin-bottom: 4px;
+
+}
+
+.activity-box{
+    margin-top: 15px;
+    background: white;
+    color: black;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+}
+
+
+
+.hidden{
+
+    display: none;
+}
