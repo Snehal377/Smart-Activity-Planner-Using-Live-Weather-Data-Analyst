@@ -13,18 +13,28 @@ Frontend:
    HTML
    CSS
    JavaScript
+
+   
 Backend :
    Python
    Flask Framework
    Requests(API calls)
+
+   
 Machine Learning:
    1) Scikit-learn
    2)Random Forest Classifier
    3)Pandas
    4)Numpy
    5)RandomForestRegressor
+
+
+
 API:
    1)OpenWeatherMap API
+
+
+   
 TOOLS:
    1)VS Code
    2)Browser Developer Tools
